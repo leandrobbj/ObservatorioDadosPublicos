@@ -21,7 +21,6 @@ git clone https://github.com/leandrobbj/ObservatorioDadosPublicos.git
 cd ObservatorioDadosPublicos
 ```
 
-
 3 - Execute o script da API (gera `utilizadores.csv`):
 ```bash
 python api_utilizadores.py
@@ -31,6 +30,12 @@ python api_utilizadores.py
 ```bash
 python scraping_citacoes.py
 ```
+## Melhoria autónoma (Parte B)
+
+**Opção escolhida:** Opção B, Estatísticas de citações.
+
+**O que foi acrescentado:** no final de `scraping_citacoes.py` foi adicionado um bloco que lê o ficheiro `citacoes.csv`  que conta quantas citações existem por autor e exibe no terminal.
+
 
 ## Fontes de dados
 * **API:** [JSONPlaceholder](https://jsonplaceholder.typicode.com/users) (dados fictícios de utilizadores, em formato JSON)
